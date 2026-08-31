@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #e8dfd0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background: #fdfbf7;
+  border: 1px solid #1a1614;
+  padding: 60px 70px;
+  max-width: 600px;
+}
+
+.card-entete {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+  color: #b44a2a;
+}
+
+.card h1 {
+  font-family: "Fraunces", serif;
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: #5c564f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.link {
+  color: #e67e22;
+  font-size: 16px;
+  font-weight: 600;
+}
